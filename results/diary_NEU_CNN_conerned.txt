@@ -1,0 +1,243 @@
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('load')" style="font-weight:bold">load</a>
+Unable to read file 'C:\Users\Internship student\Desktop\Experiments\CNN_Codes_Primary\imagenet-vgg-verydeep-19.mat'.
+No such file or directory.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('GLAC_example_for_NEU_spatial_bin_size_conerned', 'G:\PROJECT-NEU\code\CNN_Codes_Primary\GLAC_example_for_NEU_spatial_bin_size_conerned.m', 15)" style="font-weight:bold">GLAC_example_for_NEU_spatial_bin_size_conerned</a> (<a href="matlab: opentoline('G:\PROJECT-NEU\code\CNN_Codes_Primary\GLAC_example_for_NEU_spatial_bin_size_conerned.m',15,0)">line 15</a>)
+net_ = load('C:\Users\Internship student\Desktop\Experiments\CNN_Codes_Primary\imagenet-vgg-verydeep-19.mat') ;
+} 
+GLAC_example_for_NEU_spatial_bin_size_conerned
+
+resultDir =
+
+    'G:\PROJECT-NEU\experiement results'
+
+
+diaryDir =
+
+    'G:\PROJECT-NEU\experiement results\diary_NEU_CNN_conerned.txt'
+
+
+h =
+
+     1
+
+
+ans =
+
+  6×2 <a href="matlab:helpPopup table" style="font-weight:bold">table</a>
+
+    <strong>Label</strong><strong>    Count</strong>
+    <strong>_____</strong>    <strong>_____</strong>
+
+    Cr       150  
+    In       150  
+    PS       150  
+    Pa       150  
+    RS       150  
+    Sc       150  
+
+
+ans =
+
+  6×2 <a href="matlab:helpPopup table" style="font-weight:bold">table</a>
+
+    <strong>Label</strong><strong>    Count</strong>
+    <strong>_____</strong>    <strong>_____</strong>
+
+    Cr       150  
+    In       150  
+    PS       150  
+    Pa       150  
+    RS       150  
+    Sc       150  
+
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('vl_nnpool')" style="font-weight:bold">vl_nnpool</a>
+The pooling window is larger than the DATA (including padding).
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('vl_simplenn', 'G:\PROJECT-NEU\code\CNN_Codes_Primary\matlab\simplenn\vl_simplenn.m', 216)" style="font-weight:bold">vl_simplenn</a> (<a href="matlab: opentoline('G:\PROJECT-NEU\code\CNN_Codes_Primary\matlab\simplenn\vl_simplenn.m',216,0)">line 216</a>)
+      res(i+1).x = vl_nnpool(res(i).x, l.pool, ...
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('GLAC_example_for_NEU_spatial_bin_size_conerned', 'G:\PROJECT-NEU\code\CNN_Codes_Primary\GLAC_example_for_NEU_spatial_bin_size_conerned.m', 45)" style="font-weight:bold">GLAC_example_for_NEU_spatial_bin_size_conerned</a> (<a href="matlab: opentoline('G:\PROJECT-NEU\code\CNN_Codes_Primary\GLAC_example_for_NEU_spatial_bin_size_conerned.m',45,0)">line 45</a>)
+    hog_4x4_= vl_simplenn(net, img);
+} 
+opentoline('G:\PROJECT-NEU\code\CNN_Codes_Primary\GLAC_example_for_NEU_spatial_bin_size_conerned.m',45,0)
+opentoline('G:\PROJECT-NEU\code\CNN_Codes_Primary\GLAC_example_for_NEU_spatial_bin_size_conerned.m',45,0)
+GLAC_example_for_NEU_spatial_bin_size_conerned
+
+resultDir =
+
+    'G:\PROJECT-NEU\experiement results'
+
+
+diaryDir =
+
+    'G:\PROJECT-NEU\experiement results\diary_NEU_CNN_conerned.txt'
+
+
+h =
+
+     1
+
+
+ans =
+
+  6×2 <a href="matlab:helpPopup table" style="font-weight:bold">table</a>
+
+    <strong>Label</strong><strong>    Count</strong>
+    <strong>_____</strong>    <strong>_____</strong>
+
+    Cr       150  
+    In       150  
+    PS       150  
+    Pa       150  
+    RS       150  
+    Sc       150  
+
+
+ans =
+
+  6×2 <a href="matlab:helpPopup table" style="font-weight:bold">table</a>
+
+    <strong>Label</strong><strong>    Count</strong>
+    <strong>_____</strong>    <strong>_____</strong>
+
+    Cr       150  
+    In       150  
+    PS       150  
+    Pa       150  
+    RS       150  
+    Sc       150  
+
+if system_dependent('IsDebugMode')==1, dbcont; end
+{Operation terminated by user during <a href="matlab:matlab.internal.language.introspective.errorDocCallback('vl_simplenn', 'G:\PROJECT-NEU\code\CNN_Codes_Primary\matlab\simplenn\vl_simplenn.m', 194)" style="font-weight:bold">vl_simplenn</a> (<a href="matlab: opentoline('G:\PROJECT-NEU\code\CNN_Codes_Primary\matlab\simplenn\vl_simplenn.m',194,0)">line 194</a>)
+
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('GLAC_example_for_NEU_spatial_bin_size_conerned', 'G:\PROJECT-NEU\code\CNN_Codes_Primary\GLAC_example_for_NEU_spatial_bin_size_conerned.m', 60)" style="font-weight:bold">GLAC_example_for_NEU_spatial_bin_size_conerned</a> (<a href="matlab: opentoline('G:\PROJECT-NEU\code\CNN_Codes_Primary\GLAC_example_for_NEU_spatial_bin_size_conerned.m',60,0)">line 60</a>)
+        hog_4x4_= vl_simplenn(net, img);
+} 
+GLAC_example_for_NEU_spatial_bin_size_conerned
+
+resultDir =
+
+    'G:\PROJECT-NEU\experiement results'
+
+
+diaryDir =
+
+    'G:\PROJECT-NEU\experiement results\diary_NEU_CNN_conerned.txt'
+
+
+h =
+
+     1
+
+
+ans =
+
+  6×2 <a href="matlab:helpPopup table" style="font-weight:bold">table</a>
+
+    <strong>Label</strong><strong>    Count</strong>
+    <strong>_____</strong>    <strong>_____</strong>
+
+    Cr       15   
+    In       15   
+    PS       15   
+    Pa       15   
+    RS       15   
+    Sc       15   
+
+
+ans =
+
+  6×2 <a href="matlab:helpPopup table" style="font-weight:bold">table</a>
+
+    <strong>Label</strong><strong>    Count</strong>
+    <strong>_____</strong>    <strong>_____</strong>
+
+    Cr       15   
+    In       15   
+    PS       15   
+    Pa       15   
+    RS       15   
+    Sc       15   
+
+
+acc =
+
+     1
+     0
+     0
+     0
+     0
+     0
+
+
+acc =
+
+     1
+     1
+     0
+     0
+     0
+     0
+
+
+acc =
+
+     1
+     1
+     1
+     0
+     0
+     0
+
+
+acc =
+
+    1.0000
+    1.0000
+    1.0000
+    0.7333
+         0
+         0
+
+
+acc =
+
+    1.0000
+    1.0000
+    1.0000
+    0.7333
+    1.0000
+         0
+
+
+acc =
+
+    1.0000
+    1.0000
+    1.0000
+    0.7333
+    1.0000
+    0.9333
+
+SVM: 
+c_mat =
+
+    1.0000         0         0         0         0         0
+         0    1.0000         0         0         0         0
+         0         0    1.0000         0         0         0
+    0.0667         0         0    0.7333    0.1333    0.0667
+         0         0         0         0    1.0000         0
+         0    0.0667         0         0         0    0.9333
+
+Classification accuracy lINEAR SVM for round 1: 0.944444
+plotConfMat(c_mat,categories);
+[Warning: Not enough arguments for format.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('num2str>cellPrintf', 'C:\MATLAB\R2017b\toolbox\matlab\strfun\num2str.p', 174)" style="font-weight:bold">num2str>cellPrintf</a> (<a href="matlab: opentoline('C:\MATLAB\R2017b\toolbox\matlab\strfun\num2str.p',174,0)">line 174</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('num2str', 'C:\MATLAB\R2017b\toolbox\matlab\strfun\num2str.p', 121)" style="font-weight:bold">num2str</a> (<a href="matlab: opentoline('C:\MATLAB\R2017b\toolbox\matlab\strfun\num2str.p',121,0)">line 121</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('plotConfMat', 'G:\PROJECT-NEU\code\plotConfMat-master\plotConfMat.m', 46)" style="font-weight:bold">plotConfMat</a> (<a href="matlab: opentoline('G:\PROJECT-NEU\code\plotConfMat-master\plotConfMat.m',46,0)">line 46</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('GLAC_example_for_NEU_spatial_bin_size_conerned', 'G:\PROJECT-NEU\code\CNN_Codes_Primary\GLAC_example_for_NEU_spatial_bin_size_conerned.m', 119)" style="font-weight:bold">GLAC_example_for_NEU_spatial_bin_size_conerned</a> (<a href="matlab: opentoline('G:\PROJECT-NEU\code\CNN_Codes_Primary\GLAC_example_for_NEU_spatial_bin_size_conerned.m',119,0)">line 119</a>)] 
+matlab.internal.language.introspective.errorDocCallback('GLAC_example_for_NEU_spatial_bin_size_conerned', 'G:\PROJECT-NEU\code\CNN_Codes_Primary\GLAC_example_for_NEU_spatial_bin_size_conerned.m', 119)
+print('-djpeg', fullfile(resultDir, sprintf('result-confusion-CNN-NEU.jpg')) )
+if system_dependent('IsDebugMode')==1, dbquit; end
